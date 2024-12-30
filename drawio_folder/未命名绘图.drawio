@@ -10,9 +10,6 @@
         <mxCell id="6wLO1wM4Qv6k_STgGtqq-7" value="" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;sketch=1;jiggle=2;fillStyle=hatch;curveFitting=1;strokeColor=#9a9fa1;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBorderColor=none;fillColor=#dff2f9;gradientColor=none;arcSize=21;imageAspect=0;" vertex="1" parent="1">
           <mxGeometry x="1545" y="-69" width="336" height="211" as="geometry" />
         </mxCell>
-        <mxCell id="6wLO1wM4Qv6k_STgGtqq-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="6wLO1wM4Qv6k_STgGtqq-10" target="6wLO1wM4Qv6k_STgGtqq-13">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="6wLO1wM4Qv6k_STgGtqq-10" value="" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;sketch=1;jiggle=2;fillStyle=hatch;curveFitting=1;strokeColor=#9a9fa1;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBorderColor=none;fillColor=#dff2f9;gradientColor=none;arcSize=21;imageAspect=0;" vertex="1" parent="1">
           <mxGeometry x="1549" y="264" width="336" height="211" as="geometry" />
         </mxCell>
@@ -353,19 +350,19 @@
           <mxGeometry x="1425" y="350" width="92" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6wLO1wM4Qv6k_STgGtqq-12" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;结果&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;图像/图像特征/掩码编码&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e7e6f1;strokeColor=#908f8f;fillStyle=hatch;strokeWidth=2;perimeterSpacing=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="1965" y="235" width="299" height="100" as="geometry" />
+          <mxGeometry x="1854" y="158" width="180" height="96" as="geometry" />
         </mxCell>
         <mxCell id="6wLO1wM4Qv6k_STgGtqq-13" value="" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;sketch=1;jiggle=2;fillStyle=hatch;curveFitting=1;strokeColor=#9a9fa1;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBorderColor=none;fillColor=#dff2f9;gradientColor=none;arcSize=21;imageAspect=0;" vertex="1" parent="1">
-          <mxGeometry x="2257" y="-69" width="336" height="211" as="geometry" />
+          <mxGeometry x="2113" y="-69" width="336" height="211" as="geometry" />
         </mxCell>
-        <mxCell id="6wLO1wM4Qv6k_STgGtqq-14" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;前端鼠标交互&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;(本地或请求)&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBorderColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2599" y="14" width="159" height="39" as="geometry" />
+        <mxCell id="6wLO1wM4Qv6k_STgGtqq-14" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;前端鼠标交互&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;(本地计算或请求)&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2455" y="14" width="227" height="35" as="geometry" />
         </mxCell>
         <mxCell id="6wLO1wM4Qv6k_STgGtqq-15" value="&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;实时计算&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;掩码编码&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e7e6f1;strokeColor=#908f8f;fillStyle=hatch;strokeWidth=2;perimeterSpacing=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="2330" y="44" width="204" height="77" as="geometry" />
+          <mxGeometry x="2186" y="44" width="204" height="77" as="geometry" />
         </mxCell>
         <mxCell id="6wLO1wM4Qv6k_STgGtqq-16" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;结果显示&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;图像/分割结果&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e7e6f1;strokeColor=#908f8f;fillStyle=hatch;strokeWidth=2;perimeterSpacing=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="2324" y="-62" width="209" height="78" as="geometry" />
+          <mxGeometry x="2180" y="-62" width="209" height="78" as="geometry" />
         </mxCell>
         <mxCell id="6wLO1wM4Qv6k_STgGtqq-20" value="&lt;font style=&quot;font-size: 24px;&quot; face=&quot;Comic Sans MS&quot;&gt;&lt;b style=&quot;&quot;&gt;结果&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#cdecf1;strokeColor=#75bbbf;fillStyle=hatch;strokeWidth=2;perimeterSpacing=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="1734" y="161" width="107" height="68" as="geometry" />
