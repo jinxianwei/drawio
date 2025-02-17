@@ -1325,41 +1325,41 @@
         <mxCell id="dTvDreeiw0isOH0vg9c--252" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.035;entryY=0.289;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="dTvDreeiw0isOH0vg9c--46" target="dTvDreeiw0isOH0vg9c--49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dTvDreeiw0isOH0vg9c--254" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-276" y="2312" width="60" height="30" as="geometry" />
+        <mxCell id="dTvDreeiw0isOH0vg9c--254" value="Ni (at. %)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-286" y="2312" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dTvDreeiw0isOH0vg9c--255" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-276" y="2356" width="60" height="30" as="geometry" />
+        <mxCell id="dTvDreeiw0isOH0vg9c--255" value="Ti (at. %)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-286" y="2356" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dTvDreeiw0isOH0vg9c--256" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-276" y="2400" width="60" height="30" as="geometry" />
+        <mxCell id="dTvDreeiw0isOH0vg9c--256" value="Hf (at. %)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-286" y="2400" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dTvDreeiw0isOH0vg9c--257" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-276" y="2445" width="60" height="30" as="geometry" />
+        <mxCell id="dTvDreeiw0isOH0vg9c--257" value="Homogenization Temperature" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-286" y="2445" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dTvDreeiw0isOH0vg9c--258" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-276" y="2489" width="60" height="30" as="geometry" />
+        <mxCell id="dTvDreeiw0isOH0vg9c--258" value="Homogenization Duration (h)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-286" y="2489" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dTvDreeiw0isOH0vg9c--259" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-276" y="2533" width="60" height="30" as="geometry" />
+        <mxCell id="dTvDreeiw0isOH0vg9c--259" value="Solution Annealing Temperature" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-295" y="2533" width="78" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dTvDreeiw0isOH0vg9c--260" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-276" y="2577" width="60" height="30" as="geometry" />
+        <mxCell id="dTvDreeiw0isOH0vg9c--260" value="Solution Annealing Duration (h)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-301" y="2577" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dTvDreeiw0isOH0vg9c--261" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-276" y="2622" width="60" height="30" as="geometry" />
+        <mxCell id="dTvDreeiw0isOH0vg9c--261" value="Final-aging Temperature" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-286" y="2622" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dTvDreeiw0isOH0vg9c--262" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-276" y="2666" width="60" height="30" as="geometry" />
+        <mxCell id="dTvDreeiw0isOH0vg9c--262" value="Final-aging Duration (h)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-302" y="2666" width="93" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dTvDreeiw0isOH0vg9c--263" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-276" y="2710" width="60" height="30" as="geometry" />
+        <mxCell id="dTvDreeiw0isOH0vg9c--263" value="Martensite Start Temperature" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-286" y="2710" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dTvDreeiw0isOH0vg9c--264" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-276" y="2754" width="60" height="30" as="geometry" />
+        <mxCell id="dTvDreeiw0isOH0vg9c--264" value="T=Af-Ms" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-286" y="2754" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dTvDreeiw0isOH0vg9c--265" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-276" y="2799" width="60" height="30" as="geometry" />
+        <mxCell id="dTvDreeiw0isOH0vg9c--265" value="Martensite Peak Temperature" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-286" y="2799" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dTvDreeiw0isOH0vg9c--268" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="dTvDreeiw0isOH0vg9c--267">
           <mxGeometry relative="1" as="geometry">
@@ -1394,11 +1394,17 @@
         <mxCell id="dTvDreeiw0isOH0vg9c--272" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.05;entryY=0.343;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="dTvDreeiw0isOH0vg9c--267" target="dTvDreeiw0isOH0vg9c--27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dTvDreeiw0isOH0vg9c--276" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-276" y="2843" width="60" height="30" as="geometry" />
+        <mxCell id="dTvDreeiw0isOH0vg9c--276" value="Austenite Peak Temperature" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-286" y="2843" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dTvDreeiw0isOH0vg9c--277" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-276" y="2887" width="60" height="30" as="geometry" />
+        <mxCell id="dTvDreeiw0isOH0vg9c--277" value="Thermal Hysteresis" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-286" y="2887" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dTvDreeiw0isOH0vg9c--278" value="Transformation Strain (%)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="228" y="2562" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dTvDreeiw0isOH0vg9c--280" value="Recovered Strain (%)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="223" y="2612" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
