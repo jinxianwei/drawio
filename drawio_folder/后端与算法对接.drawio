@@ -1,14 +1,82 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.6.1">
   <diagram name="第 1 页" id="b3ax53G9h7lHBUDYk4jL">
-    <mxGraphModel dx="2018" dy="1140" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2418" dy="1140" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="wVt8UFH9Yjd1K00YV3iq-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 14px;&quot;&gt;Grain_service&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 14px;&quot;&gt;仓库&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="131" y="348" as="geometry" />
+        <mxCell id="ci584kqD6LJ2CmHuCd1F-11" parent="1" style="swimlane;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 14px;&quot;&gt;Grain_service 仓库&lt;/font&gt;" vertex="1">
+          <mxGeometry height="268" width="436" x="-207" y="89" as="geometry">
+            <mxRectangle height="26" width="130" x="14" y="245" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="wVt8UFH9Yjd1K00YV3iq-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;DataMonitor-service&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 14px;&quot;&gt;仓库&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="73" width="148" x="472" y="207" as="geometry" />
+        <mxCell id="ci584kqD6LJ2CmHuCd1F-13" parent="ci584kqD6LJ2CmHuCd1F-11" style="swimlane;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;GPU Algo&lt;/font&gt;" vertex="1">
+          <mxGeometry height="170" width="154" x="28" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ci584kqD6LJ2CmHuCd1F-36" edge="1" parent="ci584kqD6LJ2CmHuCd1F-13" source="ci584kqD6LJ2CmHuCd1F-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="202" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ci584kqD6LJ2CmHuCd1F-5" parent="ci584kqD6LJ2CmHuCd1F-13" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;SAM app&lt;/font&gt;" vertex="1">
+          <mxGeometry height="37" width="81" x="34" y="41" as="geometry" />
+        </mxCell>
+        <mxCell id="ci584kqD6LJ2CmHuCd1F-38" edge="1" parent="ci584kqD6LJ2CmHuCd1F-13" source="ci584kqD6LJ2CmHuCd1F-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="153" y="108" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ci584kqD6LJ2CmHuCd1F-6" parent="ci584kqD6LJ2CmHuCd1F-13" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Denoise app&lt;/font&gt;" vertex="1">
+          <mxGeometry height="39" width="82" x="33" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="ci584kqD6LJ2CmHuCd1F-17" parent="ci584kqD6LJ2CmHuCd1F-11" style="swimlane;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Post Statistic&lt;/font&gt;" vertex="1">
+          <mxGeometry height="199" width="184" x="232" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ci584kqD6LJ2CmHuCd1F-22" parent="ci584kqD6LJ2CmHuCd1F-17" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="单晶、多晶颗粒" vertex="1">
+          <mxGeometry height="37" width="94" x="13" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ci584kqD6LJ2CmHuCd1F-25" parent="ci584kqD6LJ2CmHuCd1F-17" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="球形度" vertex="1">
+          <mxGeometry height="37" width="54" x="119" y="27" as="geometry" />
+        </mxCell>
+        <mxCell id="ci584kqD6LJ2CmHuCd1F-26" parent="ci584kqD6LJ2CmHuCd1F-17" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="开裂球" vertex="1">
+          <mxGeometry height="37" width="45" x="13" y="79" as="geometry" />
+        </mxCell>
+        <mxCell id="ci584kqD6LJ2CmHuCd1F-27" parent="ci584kqD6LJ2CmHuCd1F-17" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="团聚球" vertex="1">
+          <mxGeometry height="37" width="46" x="68.5" y="79" as="geometry" />
+        </mxCell>
+        <mxCell id="ci584kqD6LJ2CmHuCd1F-33" parent="ci584kqD6LJ2CmHuCd1F-17" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="孔占比" vertex="1">
+          <mxGeometry height="37" width="45" x="123.5" y="81" as="geometry" />
+        </mxCell>
+        <mxCell id="ci584kqD6LJ2CmHuCd1F-34" parent="ci584kqD6LJ2CmHuCd1F-17" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="晶须片厚度" vertex="1">
+          <mxGeometry height="37" width="75" x="13" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="ci584kqD6LJ2CmHuCd1F-35" parent="ci584kqD6LJ2CmHuCd1F-17" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="依托分割结果的后处理算法" vertex="1">
+          <mxGeometry height="30" width="161" x="12" y="166" as="geometry" />
+        </mxCell>
+        <mxCell id="ci584kqD6LJ2CmHuCd1F-12" parent="1" style="swimlane;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;DataMonitor-service&amp;nbsp;仓库&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="360" width="501" x="397" y="89" as="geometry">
+            <mxRectangle height="26" width="130" x="14" y="245" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ci584kqD6LJ2CmHuCd1F-14" parent="ci584kqD6LJ2CmHuCd1F-12" style="swimlane;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;CPU Algo&lt;/font&gt;" vertex="1">
+          <mxGeometry height="145" width="215" x="26" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="ci584kqD6LJ2CmHuCd1F-19" parent="ci584kqD6LJ2CmHuCd1F-14" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;拼接&lt;/font&gt;&lt;/div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;Stitch Algo&lt;/font&gt;" vertex="1">
+          <mxGeometry height="53" width="78" x="15" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="ci584kqD6LJ2CmHuCd1F-40" parent="ci584kqD6LJ2CmHuCd1F-14" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;线宽量测&lt;/font&gt;&lt;/div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;Line Width Measure&lt;/font&gt;" vertex="1">
+          <mxGeometry height="54" width="95" x="104" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="ci584kqD6LJ2CmHuCd1F-45" parent="ci584kqD6LJ2CmHuCd1F-14" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;裂纹&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;Crack&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="38" width="58" x="17" y="89" as="geometry" />
+        </mxCell>
+        <mxCell id="ci584kqD6LJ2CmHuCd1F-50" parent="ci584kqD6LJ2CmHuCd1F-14" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;伪彩图&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;pseudo-color image&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="38" width="116" x="83" y="89" as="geometry" />
+        </mxCell>
+        <mxCell id="ci584kqD6LJ2CmHuCd1F-20" parent="ci584kqD6LJ2CmHuCd1F-12" style="swimlane;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Post Statistic&lt;/font&gt;" vertex="1">
+          <mxGeometry height="96.5" width="161" x="279" y="38" as="geometry" />
+        </mxCell>
+        <mxCell id="ci584kqD6LJ2CmHuCd1F-21" parent="ci584kqD6LJ2CmHuCd1F-20" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;拼接结果融合与统计&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Comic Sans MS&amp;quot;;&quot;&gt;Stitch&amp;nbsp; Segment Result&amp;nbsp;&lt;/span&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="47.5" width="118.5" x="25" y="33.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
