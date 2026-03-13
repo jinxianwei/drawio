@@ -53,7 +53,7 @@
           <mxGeometry height="30" width="161" x="12" y="166" as="geometry" />
         </mxCell>
         <mxCell id="ci584kqD6LJ2CmHuCd1F-12" parent="1" style="swimlane;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;DataMonitor-service&amp;nbsp;仓库&lt;/span&gt;&lt;/font&gt;" vertex="1">
-          <mxGeometry height="360" width="501" x="397" y="89" as="geometry">
+          <mxGeometry height="274" width="467" x="324" y="86" as="geometry">
             <mxRectangle height="26" width="130" x="14" y="245" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
