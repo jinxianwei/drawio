@@ -1,9 +1,48 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.6.1">
   <diagram name="第 1 页" id="A-lxI9ajkSaeH2r3zoFt">
-    <mxGraphModel dx="899" dy="661" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1299" dy="661" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Mm-ajYnm3hn0pllnIdio-8" edge="1" parent="1" source="Mm-ajYnm3hn0pllnIdio-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" target="Mm-ajYnm3hn0pllnIdio-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mm-ajYnm3hn0pllnIdio-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="设定单图视场" vertex="1">
+          <mxGeometry height="60" width="120" x="-32" y="62" as="geometry" />
+        </mxCell>
+        <mxCell id="Mm-ajYnm3hn0pllnIdio-14" edge="1" parent="1" source="Mm-ajYnm3hn0pllnIdio-2" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;sketch=1;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="Mm-ajYnm3hn0pllnIdio-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mm-ajYnm3hn0pllnIdio-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="设定重叠比例" vertex="1">
+          <mxGeometry height="60" width="120" x="-32" y="141" as="geometry" />
+        </mxCell>
+        <mxCell id="Mm-ajYnm3hn0pllnIdio-10" edge="1" parent="1" source="Mm-ajYnm3hn0pllnIdio-3" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;sketch=1;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="Mm-ajYnm3hn0pllnIdio-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mm-ajYnm3hn0pllnIdio-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="导航图划定拍摄区域&lt;div&gt;(任意形状)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="145" y="101" as="geometry" />
+        </mxCell>
+        <mxCell id="Mm-ajYnm3hn0pllnIdio-11" edge="1" parent="1" source="Mm-ajYnm3hn0pllnIdio-4" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;sketch=1;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="Mm-ajYnm3hn0pllnIdio-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mm-ajYnm3hn0pllnIdio-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="图像和Stage校准" vertex="1">
+          <mxGeometry height="60" width="120" x="332" y="101" as="geometry" />
+        </mxCell>
+        <mxCell id="Mm-ajYnm3hn0pllnIdio-12" edge="1" parent="1" source="Mm-ajYnm3hn0pllnIdio-5" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;sketch=1;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="Mm-ajYnm3hn0pllnIdio-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mm-ajYnm3hn0pllnIdio-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="Stage坐标阵列" vertex="1">
+          <mxGeometry height="60" width="120" x="525" y="101" as="geometry" />
+        </mxCell>
+        <mxCell id="Mm-ajYnm3hn0pllnIdio-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="最大分数路径的全局坐标优化算法" vertex="1">
+          <mxGeometry height="60" width="120" x="332" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Mm-ajYnm3hn0pllnIdio-13" edge="1" parent="1" source="Mm-ajYnm3hn0pllnIdio-7" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;sketch=1;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="Mm-ajYnm3hn0pllnIdio-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mm-ajYnm3hn0pllnIdio-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="区域递减的&lt;div&gt;两两拼接算法&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="525" y="190" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
