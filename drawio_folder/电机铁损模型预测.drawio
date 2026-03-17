@@ -34,13 +34,13 @@
         <mxCell id="P6Hh-2hvA_2ILilC4YvK-10" edge="1" parent="1" source="P6Hh-2hvA_2ILilC4YvK-6" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;sketch=1;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="KnoOwxiHJSXvSdtlwXS--3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="P6Hh-2hvA_2ILilC4YvK-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="训练集&lt;div&gt;221&lt;/div&gt;" vertex="1">
+        <mxCell id="P6Hh-2hvA_2ILilC4YvK-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="训练集&lt;div&gt;221条&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="450" y="-73" as="geometry" />
         </mxCell>
         <mxCell id="P6Hh-2hvA_2ILilC4YvK-17" edge="1" parent="1" source="P6Hh-2hvA_2ILilC4YvK-7" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;sketch=1;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="KnoOwxiHJSXvSdtlwXS--3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="P6Hh-2hvA_2ILilC4YvK-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="验证集&lt;div&gt;96&lt;/div&gt;" vertex="1">
+        <mxCell id="P6Hh-2hvA_2ILilC4YvK-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="验证集&lt;div&gt;96条&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="447" y="39" as="geometry" />
         </mxCell>
         <mxCell id="P6Hh-2hvA_2ILilC4YvK-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="模型预测&lt;div&gt;与&lt;div&gt;R2评估&lt;/div&gt;&lt;/div&gt;" vertex="1">
