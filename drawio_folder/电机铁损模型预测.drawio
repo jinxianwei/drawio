@@ -109,7 +109,7 @@
           <mxGeometry height="198.24" width="558" x="-635" y="956.9999999999999" as="geometry" />
         </mxCell>
         <mxCell id="U3J2nyAwNAdbtLEW_w1J-24" parent="1" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startSize=23;" value="网格搜索" vertex="1">
-          <mxGeometry height="326" width="915" x="-674" y="610" as="geometry">
+          <mxGeometry height="326" width="830" x="-674" y="610" as="geometry">
             <mxRectangle height="25" width="79" x="-674" y="610" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
