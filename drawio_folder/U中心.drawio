@@ -1,9 +1,51 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" version="29.6.4">
   <diagram name="第 1 页" id="ciQZOqqcc-GuRcSCrzb0">
-    <mxGraphModel dx="2018" dy="1140" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2418" dy="1140" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="sLe6YQQy7A0EczEdMI9J-6" edge="1" parent="1" source="sLe6YQQy7A0EczEdMI9J-1" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;sketch=1;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="sLe6YQQy7A0EczEdMI9J-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sLe6YQQy7A0EczEdMI9J-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;U中心标定&lt;/span&gt;&lt;/div&gt;&lt;div&gt;斜率截距&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-290" y="62" as="geometry" />
+        </mxCell>
+        <mxCell id="sLe6YQQy7A0EczEdMI9J-8" edge="1" parent="1" source="sLe6YQQy7A0EczEdMI9J-2" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;sketch=1;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="sLe6YQQy7A0EczEdMI9J-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sLe6YQQy7A0EczEdMI9J-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;dashed=1;dashPattern=8 8;" value="U 中心" vertex="1">
+          <mxGeometry height="60" width="70" x="-170" y="214" as="geometry" />
+        </mxCell>
+        <mxCell id="sLe6YQQy7A0EczEdMI9J-4" edge="1" parent="1" source="sLe6YQQy7A0EczEdMI9J-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" target="sLe6YQQy7A0EczEdMI9J-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sLe6YQQy7A0EczEdMI9J-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;jiggle=2;curveFitting=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="当前wd和原始位置(x0,y0)" vertex="1">
+          <mxGeometry height="60" width="120" x="-396" y="214" as="geometry" />
+        </mxCell>
+        <mxCell id="sLe6YQQy7A0EczEdMI9J-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="目标位置(x1,y1)" vertex="1">
+          <mxGeometry height="60" width="70" x="-39" y="214" as="geometry" />
+        </mxCell>
+        <mxCell id="sLe6YQQy7A0EczEdMI9J-10" edge="1" parent="1" source="sLe6YQQy7A0EczEdMI9J-11" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;sketch=1;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="sLe6YQQy7A0EczEdMI9J-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sLe6YQQy7A0EczEdMI9J-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 51, 51), rgb(255, 255, 255));&quot;&gt;大视场下&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;U中心标定&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;斜率截距&lt;/span&gt;&lt;/div&gt;&lt;div&gt;组合模式差值(δx，δy)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="210" x="-331" y="367" as="geometry" />
+        </mxCell>
+        <mxCell id="sLe6YQQy7A0EczEdMI9J-12" edge="1" parent="1" source="sLe6YQQy7A0EczEdMI9J-13" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;sketch=1;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="sLe6YQQy7A0EczEdMI9J-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sLe6YQQy7A0EczEdMI9J-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;dashed=1;dashPattern=8 8;" value="U 中心" vertex="1">
+          <mxGeometry height="60" width="70" x="-170" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="sLe6YQQy7A0EczEdMI9J-14" edge="1" parent="1" source="sLe6YQQy7A0EczEdMI9J-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" target="sLe6YQQy7A0EczEdMI9J-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sLe6YQQy7A0EczEdMI9J-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;jiggle=2;curveFitting=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="当前wd和原始位置(x0,y0)" vertex="1">
+          <mxGeometry height="60" width="120" x="-396" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="sLe6YQQy7A0EczEdMI9J-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="目标位置(x1,y1)" vertex="1">
+          <mxGeometry height="60" width="70" x="-39" y="520" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
