@@ -1,9 +1,24 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" version="29.6.6">
   <diagram name="第 1 页" id="CmcsLZ5LQypoiMR4oaQp">
-    <mxGraphModel dx="2018" dy="1140" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="773" dy="1539" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VfgPkLFsmoTgw5LgRcON-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;系统时钟&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;SystemClock_Config&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="67" width="136" x="14" y="-158" as="geometry" />
+        </mxCell>
+        <mxCell id="VfgPkLFsmoTgw5LgRcON-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;高级定时器TIM1&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;MX_TIM1_Init&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;设置三相的占空比&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="67" width="136" x="204" y="-158" as="geometry" />
+        </mxCell>
+        <mxCell id="VfgPkLFsmoTgw5LgRcON-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;通用定时器TIM3&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;MX_TIM1_Init&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;HAL_TIM_PeriodElapsedCallback&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;计算电机速度&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="67" width="210" x="176" y="-26" as="geometry" />
+        </mxCell>
+        <mxCell id="VfgPkLFsmoTgw5LgRcON-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;ADC&lt;/font&gt;" vertex="1">
+          <mxGeometry height="67" width="136" x="440" y="-158" as="geometry" />
+        </mxCell>
+        <mxCell id="VfgPkLFsmoTgw5LgRcON-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;ADC 回调做电机控制&lt;br&gt;HAL_ADCEx_InjectedConvCpltCallback&lt;/font&gt;" vertex="1">
+          <mxGeometry height="71" width="250" x="440" y="-26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
