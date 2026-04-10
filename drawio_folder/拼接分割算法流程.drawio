@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="4vsOCkbexHXfuqGBfEym">
-    <mxGraphModel dx="3263" dy="1378" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2908" dy="1210" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -366,11 +366,6 @@
         <mxCell id="2nT1fgnSSZB_i1hgx92p-217" parent="1" style="swimlane;whiteSpace=wrap;html=1;rounded=1;sketch=1;jiggle=2;curveFitting=1;strokeColor=#82b366;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;labelBackgroundColor=default;fillColor=#d5e8d4;" value="图像拼接image_stitch" vertex="1">
           <mxGeometry height="80" width="171" x="-695" y="-235" as="geometry" />
         </mxCell>
-        <mxCell id="2nT1fgnSSZB_i1hgx92p-286" edge="1" parent="2nT1fgnSSZB_i1hgx92p-217" source="2nT1fgnSSZB_i1hgx92p-218" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;sketch=1;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="228.53846153846143" y="39.53846153846143" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="2nT1fgnSSZB_i1hgx92p-218" parent="2nT1fgnSSZB_i1hgx92p-217" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="生成图像两两拼接结果" vertex="1">
           <mxGeometry height="29" width="164" x="7" y="25" as="geometry" />
         </mxCell>
@@ -399,6 +394,9 @@
           <mxGeometry height="36" width="146" x="147" y="-213" as="geometry" />
         </mxCell>
         <mxCell id="2nT1fgnSSZB_i1hgx92p-287" edge="1" parent="1" source="2nT1fgnSSZB_i1hgx92p-221" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;sketch=1;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="2nT1fgnSSZB_i1hgx92p-222">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2nT1fgnSSZB_i1hgx92p-290" edge="1" parent="1" source="2nT1fgnSSZB_i1hgx92p-218" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;sketch=1;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="2nT1fgnSSZB_i1hgx92p-219">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
