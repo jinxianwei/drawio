@@ -1,9 +1,219 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="Ie4MUlXxEWIzaN3nAaQk">
-    <mxGraphModel>
+    <mxGraphModel dx="3158" dy="1600" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;图像分割流程图&lt;/font&gt;" vertex="1">
+          <mxGeometry height="39" width="191" x="-513" y="-63" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-38" edge="1" parent="1" source="RM2DG7b-K7AaA8ZtNw_r-2" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=1;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;curved=0;" target="RM2DG7b-K7AaA8ZtNw_r-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-39" edge="1" parent="1" source="RM2DG7b-K7AaA8ZtNw_r-2" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=1;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;curved=0;" target="RM2DG7b-K7AaA8ZtNw_r-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;inference&lt;/font&gt;" vertex="1">
+          <mxGeometry height="44" width="121" x="-343" y="141" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-40" edge="1" parent="1" source="RM2DG7b-K7AaA8ZtNw_r-3" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=1;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;curved=0;" target="RM2DG7b-K7AaA8ZtNw_r-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;image_minio_path&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;minio&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="44" width="121" x="-455" y="226" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-41" edge="1" parent="1" source="RM2DG7b-K7AaA8ZtNw_r-4" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=1;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;curved=0;" target="RM2DG7b-K7AaA8ZtNw_r-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;share_folder_path&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;共享文件夹&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="44" width="121" x="-228" y="226" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-42" edge="1" parent="1" source="RM2DG7b-K7AaA8ZtNw_r-5" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;sketch=1;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="RM2DG7b-K7AaA8ZtNw_r-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;img_info&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;获取pixelsize和imgbar&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="44" width="145" x="-355" y="312" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-87" edge="1" parent="1" source="RM2DG7b-K7AaA8ZtNw_r-6" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;sketch=1;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="RM2DG7b-K7AaA8ZtNw_r-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-93" edge="1" parent="1" source="RM2DG7b-K7AaA8ZtNw_r-6" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=1;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;curved=0;" target="RM2DG7b-K7AaA8ZtNw_r-61">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-586" y="402" />
+              <mxPoint x="-586" y="1174" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;resize&amp;lt;1024&lt;/font&gt;" vertex="1">
+          <mxGeometry height="44" width="145" x="-355" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-88" edge="1" parent="1" source="RM2DG7b-K7AaA8ZtNw_r-7" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;sketch=1;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="RM2DG7b-K7AaA8ZtNw_r-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;SAM分割&lt;/font&gt;" vertex="1">
+          <mxGeometry height="44" width="145" x="-176" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-89" edge="1" parent="1" source="RM2DG7b-K7AaA8ZtNw_r-8" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;sketch=1;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="RM2DG7b-K7AaA8ZtNw_r-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="原始掩码" vertex="1">
+          <mxGeometry height="44" width="145" x="-7" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-90" edge="1" parent="1" source="RM2DG7b-K7AaA8ZtNw_r-9" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;sketch=1;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="RM2DG7b-K7AaA8ZtNw_r-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="面积排序" vertex="1">
+          <mxGeometry height="44" width="145" x="-4" y="448" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-91" edge="1" parent="1" source="RM2DG7b-K7AaA8ZtNw_r-10" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;sketch=1;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="RM2DG7b-K7AaA8ZtNw_r-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;keep_max_area_mask&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;单一掩码保留面积最大&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="44" width="145" x="-185" y="448" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-48" edge="1" parent="1" source="RM2DG7b-K7AaA8ZtNw_r-11" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;sketch=1;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="RM2DG7b-K7AaA8ZtNw_r-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;生成uint16掩码和&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;原始掩码信息字典&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="44" width="145" x="-350" y="448" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-51" edge="1" parent="1" source="RM2DG7b-K7AaA8ZtNw_r-13" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;sketch=1;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="RM2DG7b-K7AaA8ZtNw_r-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-13" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=1;sketch=1;jiggle=2;curveFitting=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="只返回中心掩码?&lt;div&gt;（古怪的需求)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="67" width="166" x="-360.5" y="522" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-58" edge="1" parent="1" source="RM2DG7b-K7AaA8ZtNw_r-15" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;sketch=1;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="RM2DG7b-K7AaA8ZtNw_r-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;掩码json文件&lt;/font&gt;" vertex="1">
+          <mxGeometry height="44" width="145" x="46.25" y="1113" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-94" edge="1" parent="1" source="RM2DG7b-K7AaA8ZtNw_r-16" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;sketch=1;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="RM2DG7b-K7AaA8ZtNw_r-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-16" parent="1" style="swimlane;whiteSpace=wrap;html=1;rounded=1;sketch=1;jiggle=2;curveFitting=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;voc2coco&lt;/font&gt;" vertex="1">
+          <mxGeometry height="690" width="527" x="-534" y="617" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-25" edge="1" parent="RM2DG7b-K7AaA8ZtNw_r-16" source="RM2DG7b-K7AaA8ZtNw_r-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" target="RM2DG7b-K7AaA8ZtNw_r-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-18" parent="RM2DG7b-K7AaA8ZtNw_r-16" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;uin16中的mask_i&lt;/font&gt;" vertex="1">
+          <mxGeometry height="41" width="109.5" x="189.56" y="51" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-26" edge="1" parent="RM2DG7b-K7AaA8ZtNw_r-16" source="RM2DG7b-K7AaA8ZtNw_r-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" target="RM2DG7b-K7AaA8ZtNw_r-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-83" edge="1" parent="RM2DG7b-K7AaA8ZtNw_r-16" source="RM2DG7b-K7AaA8ZtNw_r-20" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=1;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;curved=0;" target="RM2DG7b-K7AaA8ZtNw_r-61">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="484" y="173" />
+              <mxPoint x="484" y="556" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-20" parent="RM2DG7b-K7AaA8ZtNw_r-16" style="rhombus;whiteSpace=wrap;html=1;rounded=1;sketch=1;jiggle=2;curveFitting=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;连通域个数&amp;gt;2?&lt;/font&gt;" vertex="1">
+          <mxGeometry height="64" width="194.62" x="147" y="141" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-27" edge="1" parent="RM2DG7b-K7AaA8ZtNw_r-16" source="RM2DG7b-K7AaA8ZtNw_r-22" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;sketch=1;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="RM2DG7b-K7AaA8ZtNw_r-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-36" edge="1" parent="RM2DG7b-K7AaA8ZtNw_r-16" source="RM2DG7b-K7AaA8ZtNw_r-22" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=1;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;curved=0;" target="RM2DG7b-K7AaA8ZtNw_r-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="61" y="295" />
+              <mxPoint x="61" y="82" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-22" parent="RM2DG7b-K7AaA8ZtNw_r-16" style="rhombus;whiteSpace=wrap;html=1;rounded=1;sketch=1;jiggle=2;curveFitting=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;原始掩码面积/新掩码面积&amp;lt;10?&lt;/font&gt;" vertex="1">
+          <mxGeometry height="79" width="211" x="138.81" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-82" edge="1" parent="RM2DG7b-K7AaA8ZtNw_r-16" source="RM2DG7b-K7AaA8ZtNw_r-23" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;sketch=1;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="RM2DG7b-K7AaA8ZtNw_r-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-23" parent="RM2DG7b-K7AaA8ZtNw_r-16" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="外轮廓中面积最大的作为被遮盖掩码" vertex="1">
+          <mxGeometry height="41" width="109.5" x="189.56" y="376" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-29" parent="RM2DG7b-K7AaA8ZtNw_r-16" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" value="是：&lt;div&gt;下层掩码被上层掩码隔断&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="135" x="89" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-30" parent="RM2DG7b-K7AaA8ZtNw_r-16" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" value="否:&amp;nbsp;&lt;div&gt;单一干净掩码&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="101.19" x="349.81" y="137" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-34" parent="RM2DG7b-K7AaA8ZtNw_r-16" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" value="否:&amp;nbsp;&lt;div&gt;特别离散的掩码，且面积小于旧掩码的十倍&lt;/div&gt;&lt;div&gt;不保留&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="122" x="35" y="312" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-35" parent="RM2DG7b-K7AaA8ZtNw_r-16" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" value="是：&lt;div&gt;被隔断掩码较大，&lt;/div&gt;&lt;div&gt;有保留意义&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="135" x="263" y="334" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-61" parent="RM2DG7b-K7AaA8ZtNw_r-16" style="swimlane;whiteSpace=wrap;html=1;rounded=1;sketch=1;jiggle=2;curveFitting=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;fillColor=default;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;maski2coco&lt;/font&gt;" vertex="1">
+          <mxGeometry height="207" width="245" x="121.81" y="453" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-63" parent="RM2DG7b-K7AaA8ZtNw_r-61" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" value="掩码转轮廓点并计算属性" vertex="1">
+          <mxGeometry height="9" width="173" x="11" y="37" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-62" parent="RM2DG7b-K7AaA8ZtNw_r-61" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;bo&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;x&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="26.5" width="52" x="28.5" y="62" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-64" parent="RM2DG7b-K7AaA8ZtNw_r-61" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;category&lt;/font&gt;" vertex="1">
+          <mxGeometry height="26.5" width="57" x="95" y="62" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-65" parent="RM2DG7b-K7AaA8ZtNw_r-61" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;perimeter&lt;/font&gt;" vertex="1">
+          <mxGeometry height="27" width="59" x="25" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-66" parent="RM2DG7b-K7AaA8ZtNw_r-61" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;num_pixel&lt;/font&gt;" vertex="1">
+          <mxGeometry height="25.5" width="58" x="95" y="94.5" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-67" parent="RM2DG7b-K7AaA8ZtNw_r-61" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;axis_major&lt;/font&gt;" vertex="1">
+          <mxGeometry height="27" width="59" x="25" y="131" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-68" parent="RM2DG7b-K7AaA8ZtNw_r-61" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;axis_minor&lt;/font&gt;" vertex="1">
+          <mxGeometry height="27" width="66" x="95" y="131" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-77" parent="RM2DG7b-K7AaA8ZtNw_r-61" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;axis_mid&lt;/font&gt;" vertex="1">
+          <mxGeometry height="27" width="58" x="25" y="167" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-78" parent="RM2DG7b-K7AaA8ZtNw_r-61" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;diameter&lt;/font&gt;" vertex="1">
+          <mxGeometry height="27" width="58" x="95" y="167" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-79" parent="RM2DG7b-K7AaA8ZtNw_r-61" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;area&lt;/font&gt;" vertex="1">
+          <mxGeometry height="26.5" width="57" x="168" y="62" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-80" parent="RM2DG7b-K7AaA8ZtNw_r-61" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;color&lt;/font&gt;" vertex="1">
+          <mxGeometry height="26.5" width="57" x="170" y="94.25" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-81" parent="RM2DG7b-K7AaA8ZtNw_r-61" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;segment&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;轮廓点&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30.5" width="67" x="173" y="131.5" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-49" edge="1" parent="1" source="RM2DG7b-K7AaA8ZtNw_r-13" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;sketch=1;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.485;entryY=0.008;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="RM2DG7b-K7AaA8ZtNw_r-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-50" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;keep_center_mask&lt;/font&gt;" vertex="1">
+          <mxGeometry height="44" width="145" x="-158" y="533.5" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-54" edge="1" parent="1" source="RM2DG7b-K7AaA8ZtNw_r-50" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;sketch=1;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.484;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;curved=0;" target="RM2DG7b-K7AaA8ZtNw_r-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-55" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" value="是" vertex="1">
+          <mxGeometry height="30" width="60" x="-207" y="522" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-56" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" value="否" vertex="1">
+          <mxGeometry height="30" width="60" x="-334" y="582" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-60" edge="1" parent="1" source="RM2DG7b-K7AaA8ZtNw_r-57" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;sketch=1;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="RM2DG7b-K7AaA8ZtNw_r-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-57" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;judge_background&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;判断掩码是否为背景(按面积)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="47" width="167.5" x="35" y="1188" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-59" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;掩码json文件&lt;/font&gt;" vertex="1">
+          <mxGeometry height="44" width="145" x="46.25" y="1266" as="geometry" />
+        </mxCell>
+        <mxCell id="RM2DG7b-K7AaA8ZtNw_r-86" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&lt;i&gt;scale&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="-499" y="368" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
