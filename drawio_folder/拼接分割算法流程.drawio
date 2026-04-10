@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="4vsOCkbexHXfuqGBfEym">
-    <mxGraphModel dx="3201" dy="1540" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2580" dy="1186" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -131,7 +131,7 @@
           <mxGeometry height="30" width="148" x="665" y="354" as="geometry" />
         </mxCell>
         <mxCell id="2nT1fgnSSZB_i1hgx92p-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;jiggle=2;curveFitting=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="单图分割结果接入全局坐标" vertex="1">
-          <mxGeometry height="60" width="120" x="726" y="-89" as="geometry" />
+          <mxGeometry height="60" width="120" x="709" y="7" as="geometry" />
         </mxCell>
         <mxCell id="2nT1fgnSSZB_i1hgx92p-10" parent="1" style="swimlane;whiteSpace=wrap;html=1;rounded=1;sketch=1;jiggle=2;curveFitting=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="分割结果融合" vertex="1">
           <mxGeometry height="318" width="320" x="888" y="-91" as="geometry" />
@@ -140,7 +140,7 @@
           <mxGeometry height="29" width="164" x="84" y="32" as="geometry" />
         </mxCell>
         <mxCell id="2nT1fgnSSZB_i1hgx92p-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;jiggle=2;curveFitting=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="融合后的分割结果统计" vertex="1">
-          <mxGeometry height="60" width="120" x="1302" y="-91" as="geometry" />
+          <mxGeometry height="55" width="146" x="1302" y="-91" as="geometry" />
         </mxCell>
         <mxCell id="2nT1fgnSSZB_i1hgx92p-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" value="Text" vertex="1">
           <mxGeometry height="30" width="60" x="323" y="327" as="geometry" />
@@ -159,6 +159,12 @@
         </mxCell>
         <mxCell id="2nT1fgnSSZB_i1hgx92p-68" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" value="原图" vertex="1">
           <mxGeometry height="30" width="76" x="-750" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="2nT1fgnSSZB_i1hgx92p-70" edge="1" parent="1" style="endArrow=classic;html=1;rounded=1;sketch=1;jiggle=2;curveFitting=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;curved=0;entryX=0.017;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;" target="2nT1fgnSSZB_i1hgx92p-9" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="641" y="44" as="sourcePoint" />
+            <mxPoint x="806" y="262" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
