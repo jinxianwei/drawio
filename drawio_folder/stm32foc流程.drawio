@@ -1,9 +1,173 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="q4wxM-LyRHB_gUfmfDXO">
-    <mxGraphModel dx="2137" dy="1174" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3242" dy="1636" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-44" edge="1" parent="1" source="MEl8EhrUG2hU_hTQHQ0G-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-621" y="122.05882352941182" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="系统启动" vertex="1">
+          <mxGeometry height="34" width="112" x="-766.5" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-47" edge="1" parent="1" source="MEl8EhrUG2hU_hTQHQ0G-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="MEl8EhrUG2hU_hTQHQ0G-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-3" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="硬件初始化" vertex="1">
+          <mxGeometry height="298" width="231" x="-622" y="-27" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-4" parent="MEl8EhrUG2hU_hTQHQ0G-3" style="rounded=1;whiteSpace=wrap;html=1;" value="系统时钟配置" vertex="1">
+          <mxGeometry height="21" width="143" x="48.5" y="32" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-7" parent="MEl8EhrUG2hU_hTQHQ0G-3" style="rounded=1;whiteSpace=wrap;html=1;" value="GPIO初始化" vertex="1">
+          <mxGeometry height="21" width="143" x="48.5" y="67" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-8" parent="MEl8EhrUG2hU_hTQHQ0G-3" style="rounded=1;whiteSpace=wrap;html=1;" value="SPI1初始化(磁编码器通信)" vertex="1">
+          <mxGeometry height="22" width="174.5" x="32.75" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-13" parent="MEl8EhrUG2hU_hTQHQ0G-3" style="rounded=1;whiteSpace=wrap;html=1;" value="USART2初始化(上位机通信)" vertex="1">
+          <mxGeometry height="22" width="174.5" x="32.75" y="144" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-14" parent="MEl8EhrUG2hU_hTQHQ0G-3" style="rounded=1;whiteSpace=wrap;html=1;" value="TIM1初始化(PWM输出)" vertex="1">
+          <mxGeometry height="22" width="174.5" x="32.75" y="181" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-15" parent="MEl8EhrUG2hU_hTQHQ0G-3" style="rounded=1;whiteSpace=wrap;html=1;" value="TIM3初始化(定时中断)" vertex="1">
+          <mxGeometry height="22" width="174.5" x="32.75" y="218" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-16" parent="MEl8EhrUG2hU_hTQHQ0G-3" style="rounded=1;whiteSpace=wrap;html=1;" value="ADC1/2初始化(电流采样)" vertex="1">
+          <mxGeometry height="22" width="174.5" x="32.75" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-49" edge="1" parent="1" source="MEl8EhrUG2hU_hTQHQ0G-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="MEl8EhrUG2hU_hTQHQ0G-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-17" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="磁编码器初始化" vertex="1">
+          <mxGeometry height="175" width="220" x="-95" y="34.5" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-21" parent="MEl8EhrUG2hU_hTQHQ0G-17" style="rounded=1;whiteSpace=wrap;html=1;" value="拉低片选引脚(PA4)" vertex="1">
+          <mxGeometry height="22" width="174.5" x="24.25" y="37" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-22" parent="MEl8EhrUG2hU_hTQHQ0G-17" style="rounded=1;whiteSpace=wrap;html=1;" value="启动SPI DMA传输(获取角度数据)" vertex="1">
+          <mxGeometry height="24.25" width="189.25" x="17.75" y="77.75" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-23" parent="MEl8EhrUG2hU_hTQHQ0G-17" style="rounded=1;whiteSpace=wrap;html=1;" value="延时等待角度数据更新" vertex="1">
+          <mxGeometry height="24.25" width="189.25" x="17.75" y="121" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-46" edge="1" parent="1" source="MEl8EhrUG2hU_hTQHQ0G-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="MEl8EhrUG2hU_hTQHQ0G-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="协议初始化&lt;div&gt;调用protocol_init()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="34" width="112" x="-370" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-48" edge="1" parent="1" source="MEl8EhrUG2hU_hTQHQ0G-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="MEl8EhrUG2hU_hTQHQ0G-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="PID参数配置&lt;div&gt;调用set_motor_pid()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="34" width="112" x="-232" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-50" edge="1" parent="1" source="MEl8EhrUG2hU_hTQHQ0G-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="MEl8EhrUG2hU_hTQHQ0G-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-24" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="外设启动" vertex="1">
+          <mxGeometry height="201" width="227" x="189" y="21.5" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-25" parent="MEl8EhrUG2hU_hTQHQ0G-24" style="rounded=1;whiteSpace=wrap;html=1;" value="启动TIM1 PWM输出" vertex="1">
+          <mxGeometry height="22" width="174.5" x="22.75" y="32" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-26" parent="MEl8EhrUG2hU_hTQHQ0G-24" style="rounded=1;whiteSpace=wrap;html=1;" value="启动TIM3定时中断" vertex="1">
+          <mxGeometry height="22" width="174.5" x="22.75" y="66" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-27" parent="MEl8EhrUG2hU_hTQHQ0G-24" style="rounded=1;whiteSpace=wrap;html=1;" value="校准ADC1/2" vertex="1">
+          <mxGeometry height="22" width="174.5" x="25.25" y="102" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-28" parent="MEl8EhrUG2hU_hTQHQ0G-24" style="rounded=1;whiteSpace=wrap;html=1;" value="启动ADC1注入模式转换(带中断)" vertex="1">
+          <mxGeometry height="22" width="174.5" x="25.25" y="137" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-29" parent="MEl8EhrUG2hU_hTQHQ0G-24" style="rounded=1;whiteSpace=wrap;html=1;" value="启动ADC2注入模式转换" vertex="1">
+          <mxGeometry height="22" width="174.5" x="26.25" y="171" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-51" edge="1" parent="1" source="MEl8EhrUG2hU_hTQHQ0G-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="MEl8EhrUG2hU_hTQHQ0G-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-30" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="零点校准流程" vertex="1">
+          <mxGeometry height="252" width="299" x="482" y="-4" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-31" parent="MEl8EhrUG2hU_hTQHQ0G-30" style="rounded=1;whiteSpace=wrap;html=1;" value="记录初始编码器角度&lt;div&gt;encoder_init_angle = encoder_angle&lt;/div&gt;" vertex="1">
+          <mxGeometry height="34" width="229.25" x="28.75" y="32" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-32" parent="MEl8EhrUG2hU_hTQHQ0G-30" style="rounded=1;whiteSpace=wrap;html=1;" value="施加d轴电压&lt;div&gt;set_pwm_duty(0.5, 0, 0)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="229.25" x="28.75" y="82" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-33" parent="MEl8EhrUG2hU_hTQHQ0G-30" style="rounded=1;whiteSpace=wrap;html=1;" value="延时400ms，等待转子稳定" vertex="1">
+          <mxGeometry height="30" width="229.25" x="28.75" y="128" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-34" parent="MEl8EhrUG2hU_hTQHQ0G-30" style="rounded=1;whiteSpace=wrap;html=1;" value="记录零点角度&lt;div&gt;rotor_zero_angle = encoder_angle&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="229.25" x="28.75" y="171" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-35" parent="MEl8EhrUG2hU_hTQHQ0G-30" style="rounded=1;whiteSpace=wrap;html=1;" value="释放电机&lt;div&gt;set_pwm_duty(0, 0, 0)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="229.25" x="28.75" y="214" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-52" edge="1" parent="1" source="MEl8EhrUG2hU_hTQHQ0G-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="MEl8EhrUG2hU_hTQHQ0G-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-36" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="电机控制初始化" vertex="1">
+          <mxGeometry height="125" width="299.5" x="821" y="59.5" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-37" parent="MEl8EhrUG2hU_hTQHQ0G-36" style="rounded=1;whiteSpace=wrap;html=1;" value="调用 motor_control_init()" vertex="1">
+          <mxGeometry height="30" width="229.25" x="35.370000000000005" y="36" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-38" parent="MEl8EhrUG2hU_hTQHQ0G-36" style="rounded=1;whiteSpace=wrap;html=1;" value="设置默认控制模式：speed模式" vertex="1">
+          <mxGeometry height="30" width="229.25" x="33.370000000000005" y="81" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-39" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="主循环" vertex="1">
+          <mxGeometry height="158" width="301.5" x="1171" y="43" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-40" parent="MEl8EhrUG2hU_hTQHQ0G-39" style="rounded=1;whiteSpace=wrap;html=1;" value="等待中断触发" vertex="1">
+          <mxGeometry height="30" width="229.25" x="35.370000000000005" y="36" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-41" parent="MEl8EhrUG2hU_hTQHQ0G-39" style="rounded=1;whiteSpace=wrap;html=1;" value="处理上位机命令" vertex="1">
+          <mxGeometry height="30" width="229.25" x="33.370000000000005" y="81" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-42" parent="MEl8EhrUG2hU_hTQHQ0G-39" style="rounded=1;whiteSpace=wrap;html=1;" value="监控系统状态" vertex="1">
+          <mxGeometry height="30" width="229.25" x="33.370000000000005" y="122" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-53" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="SPI传输完成中断&lt;div&gt;HAL_SPI_TXRXCpltCallback&lt;/div&gt;" vertex="1">
+          <mxGeometry height="51" width="202" x="-811.5" y="404" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-54" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="拉高片选引脚&lt;div&gt;HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_SET)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="52" width="369" x="-895" y="474" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-55" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="解析角度数据&lt;div&gt;int angle_raw = (mt6701_rx_data[1] &amp;gt;&amp;gt; 2) | (mt6701_rx_data[0] &amp;lt;&amp;lt; 6)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="52" width="369" x="-895" y="558" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-56" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="CRC校验" vertex="1">
+          <mxGeometry height="214" width="481" x="-958" y="642" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-57" parent="MEl8EhrUG2hU_hTQHQ0G-56" style="rounded=1;whiteSpace=wrap;html=1;" value="提取CRC值: crc_raw = mt6701_rx_data[2] &amp;amp; (( 1 &amp;lt;&amp;lt; 6)- 1)" vertex="1">
+          <mxGeometry height="47" width="369" x="56" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-60" parent="MEl8EhrUG2hU_hTQHQ0G-56" style="rounded=1;whiteSpace=wrap;html=1;" value="计算CRC：calculate_crc(crc_data)" vertex="1">
+          <mxGeometry height="47" width="369" x="56" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-61" parent="MEl8EhrUG2hU_hTQHQ0G-56" style="rounded=1;whiteSpace=wrap;html=1;" value="比较CRC：若不匹配，重新启动传输" vertex="1">
+          <mxGeometry height="47" width="369" x="56" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-62" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="角度转换与更新" vertex="1">
+          <mxGeometry height="305" width="485" x="-958" y="896" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-63" parent="MEl8EhrUG2hU_hTQHQ0G-62" style="rounded=1;whiteSpace=wrap;html=1;" value="计算弧度&lt;div&gt;encoder_angle = 2 * pi * angle_raw / (1 &amp;lt;&amp;lt; 14)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="47" width="369" x="56" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-64" parent="MEl8EhrUG2hU_hTQHQ0G-62" style="rounded=1;whiteSpace=wrap;html=1;" value="计算角度差&lt;div&gt;diff_angle = cycle_diff(_encoder_angle - encoder_angle_last, 2*pi)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="47" width="369" x="56" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-65" parent="MEl8EhrUG2hU_hTQHQ0G-62" style="rounded=1;whiteSpace=wrap;html=1;" value="更新多圈角度&lt;div&gt;motor_logic_angle += diff_angle&lt;/div&gt;" vertex="1">
+          <mxGeometry height="47" width="369" x="56" y="176" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-66" parent="MEl8EhrUG2hU_hTQHQ0G-62" style="rounded=1;whiteSpace=wrap;html=1;" value="更新上一次角度&lt;div&gt;encoder_angle_last = _encoder_angle&lt;/div&gt;" vertex="1">
+          <mxGeometry height="47" width="369" x="57" y="240" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
