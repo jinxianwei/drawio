@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="q4wxM-LyRHB_gUfmfDXO">
-    <mxGraphModel dx="3482" dy="1781" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2703" dy="1210" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -404,6 +404,36 @@
         </mxCell>
         <mxCell id="MEl8EhrUG2hU_hTQHQ0G-161" edge="1" parent="1" source="MEl8EhrUG2hU_hTQHQ0G-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.517;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;" target="MEl8EhrUG2hU_hTQHQ0G-140">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-162" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="通信初始化流程" vertex="1">
+          <mxGeometry height="23" width="120" x="-800" y="2067" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-163" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="系统启动" vertex="1">
+          <mxGeometry height="34" width="173" x="-586" y="2069" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-164" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="USART2初始化" vertex="1">
+          <mxGeometry height="195" width="314" x="-639" y="2137" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-165" parent="MEl8EhrUG2hU_hTQHQ0G-164" style="rounded=1;whiteSpace=wrap;html=1;" value="配置波特率、数据位、停止位、校验位" vertex="1">
+          <mxGeometry height="34" width="232.87" x="36.999999999999986" y="43" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-166" parent="MEl8EhrUG2hU_hTQHQ0G-164" style="rounded=1;whiteSpace=wrap;html=1;" value="使能USART2时钟" vertex="1">
+          <mxGeometry height="34" width="232.87" x="36.99999999999993" y="89" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-167" parent="MEl8EhrUG2hU_hTQHQ0G-164" style="rounded=1;whiteSpace=wrap;html=1;" value="配置GPIO引脚（TX: PA2, RX: PA3）" vertex="1">
+          <mxGeometry height="34" width="232.87" x="36.99999999999993" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-168" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="协议初始化" vertex="1">
+          <mxGeometry height="195" width="322" x="-654.5" y="2356" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-169" parent="MEl8EhrUG2hU_hTQHQ0G-168" style="rounded=1;whiteSpace=wrap;html=1;" value="调用protocol_init()" vertex="1">
+          <mxGeometry height="34" width="232.87" x="36.999999999999986" y="43" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-170" parent="MEl8EhrUG2hU_hTQHQ0G-168" style="rounded=1;whiteSpace=wrap;html=1;" value="启动串口接收中断：&lt;div&gt;HAL_UART_Receive_IT(&amp;amp;huart2, g_rx_buffer, PROTOCOL_FRAME_LENGTH)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="49" width="298.06" x="10.94" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-171" parent="MEl8EhrUG2hU_hTQHQ0G-168" style="rounded=1;whiteSpace=wrap;html=1;" value="发送初始化完成消息" vertex="1">
+          <mxGeometry height="34" width="232.87" x="36.99999999999993" y="148" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
