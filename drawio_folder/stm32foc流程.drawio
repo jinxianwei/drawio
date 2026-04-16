@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="q4wxM-LyRHB_gUfmfDXO">
-    <mxGraphModel dx="2703" dy="1210" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3048" dy="1518" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -510,8 +510,20 @@
         <mxCell id="MEl8EhrUG2hU_hTQHQ0G-197" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="发送帧数据&lt;div&gt;HAL_UART_Transmit(&amp;amp;huart2, (uint8_t*)&amp;amp;frame, PROTOCOL_FRAME_LENGTH, 100)&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="508" x="1259" y="2396" as="geometry" />
         </mxCell>
-        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-198" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="上位" vertex="1">
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-198" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="上位机通信流程" vertex="1">
           <mxGeometry height="30" width="60" x="1907" y="2086" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-199" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="上位机发送命令&lt;div&gt;构建帧协议&lt;/div&gt;&lt;div&gt;通过串口发送给STM32&lt;/div&gt;" vertex="1">
+          <mxGeometry height="61" width="255" x="2092" y="2071" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-200" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="STM32接收处理&lt;div&gt;中断接收数据&lt;/div&gt;&lt;div&gt;验证帧格式和校验和&lt;/div&gt;&lt;div&gt;执行命令（读取/写入参数）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="61" width="255" x="2092" y="2158" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-201" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="STM32发送响应&lt;div&gt;构建帧协议&lt;/div&gt;&lt;div&gt;通过串口发送给上位机&lt;/div&gt;" vertex="1">
+          <mxGeometry height="61" width="255" x="2092" y="2247" as="geometry" />
+        </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-202" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="上位机接收处理&lt;div&gt;解析响应帧&lt;/div&gt;&lt;div&gt;更新界面显示或处理数据&lt;/div&gt;" vertex="1">
+          <mxGeometry height="61" width="255" x="2096" y="2335" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
