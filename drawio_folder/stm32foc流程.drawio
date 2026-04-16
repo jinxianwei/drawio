@@ -510,6 +510,9 @@
         <mxCell id="MEl8EhrUG2hU_hTQHQ0G-197" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="发送帧数据&lt;div&gt;HAL_UART_Transmit(&amp;amp;huart2, (uint8_t*)&amp;amp;frame, PROTOCOL_FRAME_LENGTH, 100)&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="508" x="1259" y="2396" as="geometry" />
         </mxCell>
+        <mxCell id="MEl8EhrUG2hU_hTQHQ0G-198" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="上位" vertex="1">
+          <mxGeometry height="30" width="60" x="1907" y="2086" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
