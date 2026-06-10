@@ -1,0 +1,19 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="SPJzrtFJ2h2y-7jRp7m4">
+    <mxGraphModel dx="628" dy="949" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mNEA2bSVfQqrhph_DYo6-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#d5e8d4;strokeColor=#82b366;" value="MiL测试&lt;div&gt;(模型在环测试)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="41" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="mNEA2bSVfQqrhph_DYo6-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#d5e8d4;strokeColor=#82b366;" value="MiL测试&lt;div&gt;(模型在环测试)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="41" y="347" as="geometry" />
+        </mxCell>
+        <mxCell id="mNEA2bSVfQqrhph_DYo6-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="Mil测试：控制算法开发初期" vertex="1">
+          <mxGeometry height="37" width="450" x="171" y="253" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
