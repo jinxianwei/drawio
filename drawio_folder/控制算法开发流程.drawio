@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="SPJzrtFJ2h2y-7jRp7m4">
-    <mxGraphModel dx="1404" dy="786" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1697" dy="950" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -52,13 +52,13 @@
           <mxGeometry height="190" width="501" x="190" y="1579" as="geometry" />
         </mxCell>
         <mxCell id="vQIKJYU9hiVUAoawukqU-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="纯simulink仿真&lt;div&gt;包括&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;算法和电机模型&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="676" y="249" as="geometry" />
+          <mxGeometry height="60" width="120" x="702" y="249" as="geometry" />
         </mxCell>
         <mxCell id="vQIKJYU9hiVUAoawukqU-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="将simulink中的控制模型导出为c&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;代码并封装&lt;/font&gt;为simulink可调用的模块，再在仿真中调用，进行同条件仿真" vertex="1">
           <mxGeometry height="77" width="172" x="650" y="535" as="geometry" />
         </mxCell>
         <mxCell id="vQIKJYU9hiVUAoawukqU-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="烧录的程序中，&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;硬件驱动和算法部分解耦&lt;/font&gt;(便于后续算法迭代)&lt;div&gt;算法模型烧录到目标处理器后，需要独立调用（输入为仿真时的模拟数据序列），验证与仿真结果的一致性&lt;/div&gt;" vertex="1">
-          <mxGeometry height="96" width="182" x="702" y="800" as="geometry" />
+          <mxGeometry height="96" width="182" x="708" y="800" as="geometry" />
         </mxCell>
         <mxCell id="vQIKJYU9hiVUAoawukqU-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;硬件烧录后，与虚拟环境&lt;/font&gt;(虚拟被控对象模型)做闭环测试" vertex="1">
           <mxGeometry height="77" width="172" x="708" y="1218" as="geometry" />
@@ -73,7 +73,7 @@
           <mxGeometry height="60" width="120" x="836" y="249" as="geometry" />
         </mxCell>
         <mxCell id="vQIKJYU9hiVUAoawukqU-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="验证代码在目标处理器上的可执行性" vertex="1">
-          <mxGeometry height="60" width="120" x="912" y="815" as="geometry" />
+          <mxGeometry height="60" width="120" x="903" y="815" as="geometry" />
         </mxCell>
         <mxCell id="vQIKJYU9hiVUAoawukqU-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="验证硬件的控制信号在模拟环境中的响应情况" vertex="1">
           <mxGeometry height="60" width="120" x="895" y="1226.5" as="geometry" />
