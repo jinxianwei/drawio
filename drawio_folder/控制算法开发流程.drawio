@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="SPJzrtFJ2h2y-7jRp7m4">
-    <mxGraphModel dx="1404" dy="810" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1404" dy="786" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -48,7 +48,7 @@
         <mxCell id="-b37v0VHe5EqFnSivpbF-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#d5e8d4;strokeColor=#82b366;" value="道路测试&lt;div&gt;(道路测试)&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="41" y="1611" as="geometry" />
         </mxCell>
-        <mxCell id="-b37v0VHe5EqFnSivpbF-15" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;道路测试&lt;/h1&gt;&lt;div&gt;将&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;控制器集成到真实&lt;/font&gt;车辆中，在实际道路环境中验证系统性能，发现仿真中未覆盖的复杂因素（如路面颠簸、电磁干扰、极端天气），确保系统最终的可靠性。&lt;/div&gt;&lt;div&gt;测试流程：&lt;/div&gt;&lt;div&gt;1）测试规划：定义测试目标（如特定功能验证）、场景、里程要求等&lt;/div&gt;&lt;div&gt;2）数据采集：通过车载传感器、摄像头、数据记录仪等&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;收集车辆状态、环境信息&lt;/font&gt;及驾驶员行为数据&lt;/div&gt;&lt;div&gt;3）场景复现与迭代：将实际路测中发现的问题反馈至仿真环境（如HIL、虚拟仿真），优化后再回归路测&lt;/div&gt;&lt;div&gt;4）结果分析与报告：分析故障原因，性能瓶颈，生成测试报告以指导设计改进&lt;/div&gt;" vertex="1">
+        <mxCell id="-b37v0VHe5EqFnSivpbF-15" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;道路测试&lt;/h1&gt;&lt;div&gt;将&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;控制器集成到真实&lt;/font&gt;车辆中，在实际道路环境中验证系统性能，发现仿真中未覆盖的复杂因素（如路面颠簸、电磁干扰、极端天气），确保系统最终的可靠性。&lt;/div&gt;&lt;div&gt;测试流程：&lt;/div&gt;&lt;div&gt;1）测试规划：定义测试目标（如特定功能验证）、场景、里程要求等&lt;/div&gt;&lt;div&gt;2）数据采集：通过车载传感器、摄像头、数据记录仪等&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;收集状态、环境信息&lt;/font&gt;及驾驶员行为数据&lt;/div&gt;&lt;div&gt;3）场景复现与迭代：将实际路测中发现的问题反馈至仿真环境（如HIL、虚拟仿真），优化后再回归路测&lt;/div&gt;&lt;div&gt;4）结果分析与报告：分析故障原因，性能瓶颈，生成测试报告以指导设计改进&lt;/div&gt;" vertex="1">
           <mxGeometry height="190" width="501" x="190" y="1579" as="geometry" />
         </mxCell>
         <mxCell id="vQIKJYU9hiVUAoawukqU-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="纯simulink仿真&lt;div&gt;包括&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;算法和电机模型&lt;/font&gt;&lt;/div&gt;" vertex="1">
