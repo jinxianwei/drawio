@@ -60,10 +60,10 @@
         <mxCell id="vQIKJYU9hiVUAoawukqU-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="烧录的程序中，&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;硬件驱动和算法部分解耦&lt;/font&gt;(便于后续算法迭代)&lt;div&gt;算法模型烧录到目标处理器后，需要独立调用（输入为仿真时的模拟数据序列），验证与仿真结果的一致性&lt;/div&gt;" vertex="1">
           <mxGeometry height="96" width="182" x="702" y="800" as="geometry" />
         </mxCell>
-        <mxCell id="vQIKJYU9hiVUAoawukqU-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="硬件烧录后，与虚拟环境(虚拟被控对象模型)做闭环测试" vertex="1">
+        <mxCell id="vQIKJYU9hiVUAoawukqU-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;硬件烧录后，与虚拟环境&lt;/font&gt;(虚拟被控对象模型)做闭环测试" vertex="1">
           <mxGeometry height="77" width="172" x="708" y="1218" as="geometry" />
         </mxCell>
-        <mxCell id="vQIKJYU9hiVUAoawukqU-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="硬件烧录后，与真实被控对象做做闭环测试" vertex="1">
+        <mxCell id="vQIKJYU9hiVUAoawukqU-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;硬件烧录后，与真实被控对象&lt;/font&gt;做做闭环测试" vertex="1">
           <mxGeometry height="77" width="172" x="702" y="1611" as="geometry" />
         </mxCell>
         <mxCell id="vQIKJYU9hiVUAoawukqU-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="验证代码生成工具的准确性" vertex="1">
