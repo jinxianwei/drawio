@@ -1,0 +1,19 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="JFZof9BHwqcVMCHrkPlj">
+    <mxGraphModel dx="2436" dy="1140" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qZYzFdNBmWbWPCdJFRTx-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="Template Monitor" vertex="1">
+          <mxGeometry height="60" width="120" x="-110" y="218" as="geometry" />
+        </mxCell>
+        <mxCell id="hma9OWqMnBCRIBWtV9vk-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="定位" vertex="1">
+          <mxGeometry height="60" width="120" x="91" y="218" as="geometry" />
+        </mxCell>
+        <mxCell id="hma9OWqMnBCRIBWtV9vk-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="模板图获取" vertex="1">
+          <mxGeometry height="60" width="120" x="281" y="218" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
