@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Ih45qHi9ofW3VGcEWmTY-33" edge="1" parent="1" source="qZYzFdNBmWbWPCdJFRTx-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="Ih45qHi9ofW3VGcEWmTY-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="qZYzFdNBmWbWPCdJFRTx-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="MeasurementSubButton" vertex="1">
           <mxGeometry height="37" width="585" x="100" y="875" as="geometry" />
         </mxCell>
@@ -47,7 +50,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ih45qHi9ofW3VGcEWmTY-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="调取窗口MeasurementEnvironment" vertex="1">
-          <mxGeometry height="63" width="156" x="-134" y="613" as="geometry" />
+          <mxGeometry height="63" width="156" x="-134" y="624" as="geometry" />
         </mxCell>
         <mxCell id="Ih45qHi9ofW3VGcEWmTY-16" edge="1" parent="1" source="Ih45qHi9ofW3VGcEWmTY-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Ih45qHi9ofW3VGcEWmTY-15">
           <mxGeometry relative="1" as="geometry" />
@@ -89,6 +92,9 @@
         </mxCell>
         <mxCell id="Ih45qHi9ofW3VGcEWmTY-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="measurement_execution点击" vertex="1">
           <mxGeometry height="37" width="177" x="503" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="Ih45qHi9ofW3VGcEWmTY-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="MeasurementSubButton窗口检测" vertex="1">
+          <mxGeometry height="30" width="209" x="397" y="806" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
