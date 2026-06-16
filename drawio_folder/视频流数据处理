@@ -4,9 +4,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Ih45qHi9ofW3VGcEWmTY-33" edge="1" parent="1" source="qZYzFdNBmWbWPCdJFRTx-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="Ih45qHi9ofW3VGcEWmTY-13">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="qZYzFdNBmWbWPCdJFRTx-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="MeasurementSubButton" vertex="1">
           <mxGeometry height="37" width="585" x="100" y="875" as="geometry" />
         </mxCell>
@@ -95,6 +92,30 @@
         </mxCell>
         <mxCell id="Ih45qHi9ofW3VGcEWmTY-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="MeasurementSubButton窗口检测" vertex="1">
           <mxGeometry height="30" width="209" x="397" y="806" as="geometry" />
+        </mxCell>
+        <mxCell id="Ih45qHi9ofW3VGcEWmTY-36" edge="1" parent="1" source="qZYzFdNBmWbWPCdJFRTx-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="Ih45qHi9ofW3VGcEWmTY-35" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="393" y="875" as="sourcePoint" />
+            <mxPoint x="22" y="785" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ih45qHi9ofW3VGcEWmTY-37" edge="1" parent="1" source="Ih45qHi9ofW3VGcEWmTY-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="Ih45qHi9ofW3VGcEWmTY-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ih45qHi9ofW3VGcEWmTY-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="点击" vertex="1">
+          <mxGeometry height="35" width="87" x="203" y="767" as="geometry" />
+        </mxCell>
+        <mxCell id="Ih45qHi9ofW3VGcEWmTY-40" edge="1" parent="1" source="Ih45qHi9ofW3VGcEWmTY-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Ih45qHi9ofW3VGcEWmTY-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ih45qHi9ofW3VGcEWmTY-38" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="WorkSpace" vertex="1">
+          <mxGeometry height="63" width="156" x="-134" y="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="Ih45qHi9ofW3VGcEWmTY-39" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="按钮状态判断&lt;br&gt;view1绿++绿+goto不绿?" vertex="1">
+          <mxGeometry height="67" width="211" x="-161.5" y="1342" as="geometry" />
+        </mxCell>
+        <mxCell id="Ih45qHi9ofW3VGcEWmTY-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="窗口固定动" vertex="1">
+          <mxGeometry height="30" width="104" x="-185" y="1257" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
